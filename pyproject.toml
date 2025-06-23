@@ -1,0 +1,11 @@
+[project]
+name = "crowdcent-mcp"
+version = "0.1.0"
+description = "CrowdCent Challenge MCP Server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crowdcent-challenge>=0.1.10",
+    "mcp[cli]>=1.9.4",
+    "polars>=1.31.0",
+]
