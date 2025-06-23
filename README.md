@@ -46,7 +46,7 @@ Alternatively, you can initialize the client with your API key when using the MC
 
 ### Cursor Setup
 
-Add the following to your Cursor settings (`~/.cursor/config.json` or through Cursor Settings UI):
+Add the following to your Cursor settings (`~/.cursor/mcp.json` or through Cursor Settings UI):
 
 ```json
 {
@@ -95,31 +95,19 @@ For Claude Desktop, add the following to your configuration file:
 
 After configuring the MCP server in your AI assistant, you can use natural language to interact with CrowdCent:
 
-### Getting Started
 ```
 "Download data, train a model, and submit predictions to the crowdcent challenge!"
 ```
 
-
-
-
 ```
-"Initialize the CrowdCent client with my API key: cc_xxxx"
-"Show me all available challenges"
-"Get information about the current challenge"
+"Download the crowdcent training data and do some EDA"
 ```
 
-### Working with Data
 ```
-"Download the latest training dataset to ./data/training.parquet"
-"Check if new inference data is available"
-"Download today's inference data and wait if it's not ready yet"
+"Create time series folds for the crowdcent challenge and train/evaluate a model"
 ```
 
-### Making Submissions
-```
-"Submit my predictions from predictions.parquet to slot 1"
-"List my recent submissions"
+## Troubleshooting
 
 ### MCP server not connecting
 - Ensure uv is installed and in your PATH
