@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides seamless integration with the [CrowdCent Challenge API](https://docs.crowdcent.com/), enabling AI assistants to interact with CrowdCent's prediction challenges directly.
 
+<div align="center">
+  <img src="/assets/startup.png" alt="MCP Server" />
+</div>
+
 ## Overview
 
 This MCP server allows AI assistants like Claude Desktop and Cursor to:
