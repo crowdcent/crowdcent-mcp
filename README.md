@@ -28,8 +28,9 @@ This MCP server allows AI assistants like Claude Desktop and Cursor to:
 git clone https://github.com/crowdcent/crowdcent-mcp.git
 cd crowdcent-mcp
 ```
-2. Install dependencies with uv:
+2. (Optional) Install dependencies with uv:
 ```bash
+uv venv
 uv pip install -e .
 ```
 
@@ -41,8 +42,6 @@ Create a `.env` file in the project root:
 ```bash
 CROWDCENT_API_KEY=your_api_key_here
 ```
-
-Alternatively, you can initialize the client with your API key when using the MCP server.
 
 ### Cursor Setup
 
